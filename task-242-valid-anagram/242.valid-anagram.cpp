@@ -8,8 +8,19 @@
 #include <string>
 
 class Solution
+/**
+ * @brief This class provides a method to check if two strings are anagrams of each other.
+ */
 {
 public:
+    /**
+     * @brief Checks if two strings are anagrams of each other.
+     *
+     * @param s The first string.
+     * @param t The second string.
+     * @return true If the two strings are anagrams of each other.
+     * @return false If the two strings are not anagrams of each other.
+     */
     bool isAnagram(std::string s, std::string t)
     {
 
