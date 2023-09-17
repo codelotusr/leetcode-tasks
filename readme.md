@@ -6,7 +6,7 @@ The solutions are organized by topic. The solutions are written in C++.
 
 The solutions are not necessarily the most optimal ones. They are just the ones I came up with.
 
-The choice of the problems is based on the roadmap created by [NeetCode](https://neetcode.io/)
+The choice of the problems is based on the roadmap created by [NeetCode](https://neetcode.io/).
 
 ## Table of Contents
 
