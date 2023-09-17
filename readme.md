@@ -2,7 +2,7 @@
 
 This repository contains my solutions to various coding challenges from [LeetCode](https://leetcode.com/).
 
-The solutions are organized by topic. The solutions are written in C++.
+The solutions are organized by topic and solution date. The solutions are written in C++.
 
 The solutions are not necessarily the most optimal ones. They are just the ones I came up with.
 
@@ -31,7 +31,7 @@ The choice of the problems is based on the roadmap created by [NeetCode](https:/
 
 ## Arrays & Hashing
 
-| #   | Title                                                                   | Solution                                                                            | Difficulty | Solved |
-| --- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------- | ------ |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](/Arrays%20&%20Hashing/task-217-contains-duplicate/217.contains-duplicate.cpp) | Easy       | True   |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)           | [C++](./Arrays%20&%20Hashing/task-242-valid-anagram/242.valid-anagram.cpp)          | Easy       | True   |
+| #   | Title                                                                   | Solution                                                                            | Difficulty | Solved     |
+| --- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------- | ---------- |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](/Arrays%20&%20Hashing/task-217-contains-duplicate/217.contains-duplicate.cpp) | Easy       | 2023-09-16 |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)           | [C++](./Arrays%20&%20Hashing/task-242-valid-anagram/242.valid-anagram.cpp)          | Easy       | 2023-09-17 |
