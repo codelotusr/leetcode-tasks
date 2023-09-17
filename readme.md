@@ -31,7 +31,7 @@ The choice of the problems is based on the roadmap created by [NeetCode](https:/
 
 ## Arrays & Hashing
 
-| #   | Title                                                                   | Solution                                                                            | Difficulty |
-| --- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------- |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](/Arrays%20&%20Hashing/task-217-contains-duplicate/217.contains-duplicate.cpp) | Easy       |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)           | [C++](./Arrays%20&%20Hashing/task-242-valid-anagram/242.valid-anagram.cpp)          | Easy       |
+| #   | Title                                                                   | Solution                                                                            | Difficulty | Solved |
+| --- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------- | ------ |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](/Arrays%20&%20Hashing/task-217-contains-duplicate/217.contains-duplicate.cpp) | Easy       | True   |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)           | [C++](./Arrays%20&%20Hashing/task-242-valid-anagram/242.valid-anagram.cpp)          | Easy       | True   |
