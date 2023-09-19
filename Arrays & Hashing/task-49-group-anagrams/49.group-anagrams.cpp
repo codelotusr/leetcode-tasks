@@ -19,21 +19,22 @@ public:
      * @param strs The input array of strings.
      * @return A vector of vectors of strings, where each inner vector contains a group of anagrams.
      */
-    std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string> &strs)
+    std::vector<std::vector<std::string>> groupAnagrams(const std::vector<std::string> &strs)
     {
         std::vector<std::vector<std::string>> result;
         std::unordered_map<std::string, std::vector<std::string>> map;
+        result.reserve(strs.size());
 
-        for (auto &str : strs)
+        for (const auto &str : strs)
         {
             std::string key = str;
             std::sort(key.begin(), key.end());
-            map[key].push_back(str);
+            map[key].emplace_back(str);
         }
 
         for (auto &pair : map)
         {
-            result.push_back(pair.second);
+            result.emplace_back(std::move(pair.second));
         }
 
         return result;
