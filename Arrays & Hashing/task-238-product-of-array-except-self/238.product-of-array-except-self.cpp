@@ -14,19 +14,19 @@ public:
     {
         int n = nums.size();
         std::vector<int> answer(n);
-        std::vector<int> prefixProducts(n);
-        std::vector<int> suffixProducts(n);
 
-        prefixProducts[0] = 1;
+        answer[0] = 1;
+
         for (int i{1}; i < n; ++i)
-            prefixProducts[i] = prefixProducts[i - 1] * nums[i - 1];
+            answer[i] = answer[i - 1] * nums[i - 1];
 
-        suffixProducts[n - 1] = 1;
-        for (int i{n - 2}; i >= 0; --i)
-            suffixProducts[i] = suffixProducts[i + 1] * nums[i + 1];
+        int right = 1;
 
-        for (int i{0}; i < n; ++i)
-            answer[i] = prefixProducts[i] * suffixProducts[i];
+        for (int i{n - 1}; i >= 0; --i)
+        {
+            answer[i] *= right;
+            right *= nums[i];
+        }
 
         return answer;
     }
